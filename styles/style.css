@@ -179,7 +179,7 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 }
 main{
     background-image: url("/assets/bg.png");
-    /* background-size: cover; */
+    
     background-position: center;
     background-repeat: no-repeat;
 
@@ -341,12 +341,9 @@ text-align: center;
 }
 .kid-eduction{
     display: flex;
-    /* flex-direction: column; */
+    
     align-items: center;
     width: 100%;
-    
-
-    /* margin-left: 131px; */
 }
 .title-info{
     font-size: 2.5rem;
@@ -365,8 +362,7 @@ text-align: center;
     font-size: 0.9rem;
     font-weight: 400;
     color: rgb(255, 255, 255);
-    /* text-align: center; */
-    /* margin-left: 140px; */
+    
 }
 .info-container{
     list-style: none;
@@ -492,10 +488,7 @@ text-align: center;
         padding-top: 66px;
        
     }
-    .pic-bg {
-        
     
-    }
     
     
 
