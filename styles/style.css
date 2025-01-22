@@ -178,7 +178,7 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     margin-bottom: 32px;
 }
 main{
-    background-image: url("/assets/bg.png");
+    background-image: url("./assets/bg.png");
     
     background-position: center;
     background-repeat: no-repeat;
