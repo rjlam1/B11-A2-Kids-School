@@ -23,6 +23,9 @@
 .disply-flex{
     display: flex;
 }
+.stories {
+    display: flex;
+}
 .navbar{
     justify-content: space-between;
     align-items:center;
@@ -30,6 +33,7 @@
 .nav-containe{
     list-style: none;
     gap: 32px;
+    margin-right: 186px;
     
 }
 .nav-link{
@@ -51,6 +55,7 @@
     max-width: 600;
     font-size: 1.2rem;
     border: none;
+    margin-right: 30px;
 }
 .Enroll-btn{
     background-color:#111111;
@@ -78,6 +83,7 @@
 .img-content{
     align-items: center;
 }
+
 .banner-title{
     max-width: 700;
     font-size: 3.5rem;
@@ -204,11 +210,198 @@ hr{
 .our-title{
     font-weight: 700;
     font-size: 4rem;
+    text-align: center;
+    margin-bottom: 80px;
 }
+.our-description{
+    color: rgb(102, 102, 102);
+font-size: 0.9rem;
+font-weight: 700;
+text-align: center;
+
+
+}
+.our-description-1{
+    width: 290.69px;
+    text-align:center;
+    margin-bottom: 40px;
+    font-size: 1rem;
+}
+.btn-primery-cards{
+    background-color: #3CD8E8;
+    border-radius: 47.93px;
+    width: 180px;
+    height: 47px;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding: 9px 18px;
+}
+#img-content{
+    margin-top:-24px;
+    margin-left: 30px;
+    
+}
+.btn-top{
+    margin-top:-24px;
+    margin-left: 30px;
+ } 
+.our-subtitle{
+    max-width: 700;
+    font-size: 1.2rem;
+    margin-bottom: 58px;
+    text-align: center;
+    margin-top: 33px;
+}
+
+.common{
+    min-width: 700;
+    font-size: 0.9rem;
+}
+.sub-content{
+    display: flex;
+}
+.stories-container{
+    width: 1168px;
+    display: grid;
+    grid-template-rows: repeat(2,0.4fr);
+    grid-template-columns: repeat(4,1fr);
+    gap: 19px;
+    border-radius: 16px;
+    margin: 0 auto;
+    font-size: 0.4rem;
+
+
+    
+
+}
+.pic-bg{
+    background-color: #FFFFFF;
+    border-radius: 19px;
+
+}
+
+.img-content{
+    width: 100%;
+    border-radius: 16px;
+}
+.img-content-1{
+    border-radius: 16px;
+    width: 100%;
+    
+
+}
+
+.styles-stories{
+    grid-row: span 2;
+    grid-column: span 2;
+    align-items: center;
+    
+   
+}
+.btn-primery-end{
+    background-color:rgb(17, 17, 17);;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 60.5px;
+    border-radius: 12px;
+    max-width: 600;
+    font-size: 1.2rem;
+    border: none; 
+    margin-top: 80px;
+    margin-bottom: 60px;
+    align-items: center;
+    
+}
+.bgc{
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    text-align: center;
+    
+}
+.footer-info-bgc{
+    background-color: rgba(1, 172, 253, 1);
+    height: 450px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+     
+}
+.footer-info  ,
+.about-info ,
+.ending-info-container{
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 20px;
+}
+.kid-eduction{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    width: 100%;
+    
+
+    /* margin-left: 131px; */
+}
+.title-info{
+    font-size: 2.5rem;
+    font-weight: 700px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    
+}
+.info-title{
+    color: rgb(255, 255, 255) ;
+    font-weight: 600;
+    font-size: 1.26rem;
+    width: 156px;
+}
+.info-descriptipn{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    /* text-align: center; */
+    /* margin-left: 140px; */
+}
+.info-container{
+    list-style: none;
+    color: (255, 255, 255);
+    padding: 0;
+    
+}
+.info-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255) ;
+    font-weight: 500;
+    font-size: 0.9rem;
+    display: block;
+    margin: 10 px 0;
+    margin-top: 20px;
+   
+}
+
+.icon-info-title{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 1.4rem;
+    width: 177px;
+    margin-bottom: 32px;
+}
+
+
+
 @media screen and (max-width:576px) {
     .menu-btn{
         display: block;
 
+    }
+    .small-btn{
+        display: none;
     }
     body{
         width: 100%;
@@ -247,6 +440,63 @@ hr{
         font-size: 2rem;
 
     }
-    
-}
+    .footer-info-bgc{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-info ,
+    .about-info ,
+    .ending-info-container {
+        max-width: 100%;
+        
 
+    }
+    .icon-img img{
+        margin: 10px;
+    }
+    .pic-bg{
+        width: 100%;
+
+    }
+
+    
+.stories-container {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2,0.5fr);
+            width: 100%;
+       
+    }
+    .bgc{
+        width: 100%;
+
+    }
+    .info-about-list{
+        margin-right: 200px;
+    }
+    .info-container{
+        margin-right: 200px;
+    }
+    .footer-info-bgc{
+        display: block;
+        height: auto;
+        margin-top: 0px;
+        
+
+    }
+    .bgc{
+        height:100%;
+        width: 100%;
+    }
+    .kid-eduction{
+        margin-top:-20px;
+        padding-top: 66px;
+       
+    }
+    .pic-bg {
+        
+    
+    }
+    
+    
+
+}
